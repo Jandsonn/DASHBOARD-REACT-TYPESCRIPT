@@ -3,7 +3,8 @@ import {
     MdDashboard,
     MdArrowDownward,
     MdArrowUpward,
-    MdExitToApp
+    MdExitToApp,
+    MdAccountBox
 } from 'react-icons/md';
 
 
@@ -41,6 +42,11 @@ const Aside: React.FC = () => {
                 <MenuItemLink href="#">
                     <MdArrowDownward />
                     Saídas
+                </MenuItemLink>
+
+                <MenuItemLink href="#">
+                    <MdAccountBox />
+                    Social
                 </MenuItemLink>
 
                 <MenuItemLink href="#">
