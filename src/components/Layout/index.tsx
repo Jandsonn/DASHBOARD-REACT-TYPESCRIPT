@@ -5,14 +5,16 @@ import MainHeader from '../MainHeader';
 import Aside from '../Aside';
 import Content from '../Content';
 
-const Layout: React.FC = () => {
+const Layout: React.FC = ({children}) => {
     return (
 
         <Grid>
             <MainHeader/>
             <Aside/>
-            <Content/>
-        </Grid>
+            <Content>
+                {children}
+            </Content>
+        </ Grid>
 
     )
 }
