@@ -31,11 +31,11 @@ const List: React.FC = () => {
 
       <Filters>
         
-        <button type="button" className="tag-filter">
+        <button type="button" className="tag-filter tag-filter-recurrents">
            Recorrentes  
         </button>
 
-        <button type="button" className="tag-filter">
+        <button type="button" className="tag-filter tag-filter-eventual">
            Eventuais  
         </button>
 

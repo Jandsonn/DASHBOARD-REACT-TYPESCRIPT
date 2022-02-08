@@ -11,6 +11,7 @@ export const Filters = styled.div`
     width: 100%;
     display: flex;
     justify-content:center;
+    margin-bottom: 30px;
 
     .tag-filter {
         font-size: 18px;
@@ -21,7 +22,32 @@ export const Filters = styled.div`
         margin: 0 10px;
         transition: opacity .3s;
 
+        &:hover{
+            opacity: .7;
+        }
+
     }
+
+    .tag-filter-recurrents::after {
+            content: '';
+            display: block;
+            border-radius: 2em;
+            box-shadow: 1px 1px 8px 1px red;
+            width: 55px;
+            margin: 0 auto;
+            border-bottom: 10px solid ${props => props.theme.colors.warning};
+        }
+
+        .tag-filter-eventual::after {
+            content: '';
+            display: block;
+            border-radius: 2em;
+            box-shadow: 1px 1px 8px 1px green;
+            width: 55px;
+            margin: 0 auto;
+            border-bottom: 10px solid ${props => props.theme.colors.sucess};
+        }
+
 
 
 `;

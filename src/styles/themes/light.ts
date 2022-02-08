@@ -10,9 +10,9 @@ export default {
         black: '#FFF',
         gray: '#ADAFAE',
 
-        sucess: '##46BC7F',
-        info: '##3577BE',
-        warning: '##F46F20',
+        sucess: '#46BC7F',
+        info: '#3577BE',
+        warning: '#F46F20',
 
     },
 };
