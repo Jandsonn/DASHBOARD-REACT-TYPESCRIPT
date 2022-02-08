@@ -3,8 +3,8 @@ export default {
 
     colors: {
         primary: '#3155B5',
-        secondary: '#5285A3',
-        tertiary: '#7EB4C4',
+        secondary: '#242424', //Here is color navbar
+        tertiary: '#242424', //here is color card 
 
         white: '#FFFFFF',
         black: '#202125',
